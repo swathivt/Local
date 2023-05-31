@@ -1,0 +1,560 @@
+/********************************************************Registration Page****************************************/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 95%); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c3e50,
+      #bdc3c7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #bdc3c7);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .form {
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+  }
+  
+  .form-body {
+    text-align: left;
+    padding: 20px 10px;
+  }
+  
+  .form-body > * {
+    padding: 5px;
+  }
+  
+  .form__label {
+    width: 40%;
+  }
+  
+  .form_input {
+    width: 60%;
+  }
+  
+  a {
+    /* border-bottom: 0.1px solid lightgrey; */
+    /* color: rgb(238, 62, 56); */
+    /* color: #eaae07; */
+  
+    /* cursor: pointer; */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    /* border-bottom: 0.1px solid lightgrey; */
+    /* color: rgba(206, 59, 14, 0.836); */
+    /* color: rgb(234, 174, 7); */
+    color: rgb(238, 62, 56);
+  
+    /* cursor: pointer; */
+    text-decoration: none;
+  }
+  
+  /**************************************Restaurants Listing Begin ********************************************************************/
+  
+  .restaurantItem {
+    text-decoration: none;
+    list-style-type: none;
+    /* padding-left: 30px; */
+    /* border: 0.1px solid rgb(144, 143, 143); */
+  
+    /* margin:100px;  */
+  
+    background-color: rgb(241, 241, 241);
+  
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  /* li:hover{
+    color:hsl(60, 12%, 92%);
+    border-bottom: 0.1px solid lightgrey;
+    background-color:  rgb(237, 105, 105);
+    height: 70px;
+    cursor: pointer;
+  } */
+  .restaurantName {
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 500;
+    color: #737373;
+  }
+  /* .restaurantHeading{
+      color:  rgb(237, 105, 105);
+  } */
+  .restaurantRating {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .ratingStar {
+    color: #f3b408;
+  }
+  
+  .restaurantItem.a:hover {
+    border-bottom: 0.1px solid lightgrey;
+    color: rgba(206, 59, 14, 0.836);
+  
+    cursor: pointer;
+  }
+  .rating {
+    padding: 10px;
+  }
+  
+  /**************************************Restaurants Listing End ********************************************************************/
+  
+  /**************************************homePage********************************************************************/
+  
+  body {
+    background-color: white;
+  }
+  
+  .container {
+    margin: 10px 20px 10px 20px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(12, 95, 125);
+    padding: 30px;
+  }
+  
+  .logo {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .logoLink:hover {
+    text-decoration: none;
+    color: rgba(238, 62, 56);
+    cursor: pointer;
+  }
+  
+  #headerItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menuItem {
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+  
+    font-size: 20px;
+  }
+  
+  .menuItem:hover {
+    /* color: #eaae07; */
+    color: rgb(238, 62, 56);
+    border-bottom: 0.1px solid lightgrey;
+    cursor: pointer;
+  }
+  
+  #banner img {
+    height: max-content;
+    width: 100%;
+  }
+  
+  /**************************************signup********************************************************************/
+  
+  .signUp {
+    background-color: #ffffff;
+  }
+  .signUp h3 {
+    text-align: center;
+    color: #fccc49;
+    /* color; #fccc49; // rgb(252,204,73) */
+  }
+  
+  .userInput {
+    display: flex;
+    flex-direction: column;
+    color: rgb(106, 129, 147);
+  }
+  .userDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    column-gap: 15px;
+    margin: 30px;
+    padding: 5px;
+  }
+  .email {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    padding-right: 0px;
+  }
+  
+  /**************************************footer********************************************************************/
+  
+  /* #footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      text-align: center;
+      height: 140px;
+      width: 100%;
+      background-color: rgba(12,95,125);
+      color: white;
+       margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+  } */
+  
+  #footer {
+    margin-top:  1rem; 
+    padding: 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    flex-direction: column;
+  
+    text-align: center;
+  
+    width: 100%;
+    background-color: rgba(12, 95, 125);
+    color: white;
+  }
+  
+  #footer div {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 59px 0 13px;
+  }
+  
+  #footer div p {
+    color: #ffffff;
+    display: block;
+    margin: 0;
+    padding: 33px 0 50px;
+    /* font-family: roboto-regular-webfont; */
+    font-size: 12px;
+    font-weight: normal;
+    /* line-height: 15px; */
+    /* text-align: center; */
+    text-transform: none;
+  }
+  
+  #footer div .connect {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    max-width: none;
+    width: 240px;
+  }
+  
+  #footer div .connect a {
+    background: url(../images/icons.png) no-repeat;
+    display: block;
+    float: left;
+    height: 30px;
+    margin: 0 15px;
+    padding: 0;
+    text-indent: -99999px;
+    width: 30px;
+  }
+  
+  #footer div .connect a.facebook {
+    background-position: 0 0;
+  }
+  #footer div .connect a.googleplus {
+    background-position: 0 -32px;
+  }
+  #footer div .connect a.pinterest {
+    background-position: 0 -64px;
+  }
+  #footer div .connect a.twitter {
+    background-position: 0 -96px;
+  }
+  
+  /**************************************NavBar********************************************************************/
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(106, 129, 147);
+  }
+  
+  nav a {
+    margin-left: 10px;
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+  
+  /* form.signup, form.login {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 4px;
+  } */
+  
+  /* Google Authentication Icon */
+  
+  .google-button {
+    height: 40px;
+    border-width: 0;
+    background: white;
+    color: #737373;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.1);
+    transition-property: background-color, box-shadow;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    padding: 0;
+    transform: scale(1.4);
+  }
+  .google-button:hover,
+  .google-button:focus {
+    box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transform: scale(1.4) skewX(-0.4deg);
+  }
+  .google-button:active {
+    outline: none;
+    box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.3);
+    transition-duration: 10ms;
+  }
+  .google-button__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0 8px 8px;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+  }
+  .google-button__icon--plus {
+    width: 27px;
+  }
+  .google-button__text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto", arial, sans-serif;
+  }
+  
+  .LoginFooter {
+   margin-top: 250px;
+  }
+  
+  /**************************************MyAccount********************************************************************/
+  
+  .myAccountContent {
+    display: flex;
+  
+    /* align-items: center;
+       justify-content: center;
+       vertical-align: middle; */
+  
+    /* class="h-100 d-flex align-items-center justify-content-center" */
+  }
+  .myAccountLink {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    /* background-color: rgb(106, 129, 147); */
+    border: 2px solid rgb(238, 62, 56);
+    /* margin: 10px; */
+    margin: 50px 100px 50px 100px;
+    padding: 50px 100px 50px 100px;
+    font-size: 30px;
+    /* color: white; */
+    color: rgba(12, 95, 125);
+    font-weight: bold;
+    text-decoration: none;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .myAccountLink:hover {
+    border: 1px solid rgb(238, 62, 56);
+    background-color: rgb(180, 201, 209);
+    color: rgb(238, 62, 56);
+    font-weight: bold;
+  }
+  
+  #preferenceLink {
+    text-decoration: none;
+  }
+  
+  /*************************************MyRequests********************************************************************/
+  .requestTable {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headerLink {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+  }
+  
+  .tableHeading {
+    cell-padding: 10px;
+  }
+  .myRequestsButtons {
+    display: flex;
+    column-gap: 5px;
+  }
+  .publishButton,
+  .deleteButton,
+  .editButton,
+  .buttonLA {
+    /* border: 1px solid rgb(171, 168, 168); */
+    /* border: 2px solid rgb(238, 62, 56); */
+    border: 2px solid rgba(12, 95, 125);
+    color: rgba(12, 95, 125);
+    font-weight: bold;
+   
+  }
+  .googleButton {
+    margin: 0 auto;
+    width: 280px;
+   margin-top: 200px;
+    
+  }
+  
+  .publishButton:hover,
+  .deleteButton:hover,
+  .editButton:hover,
+  .buttonLA:hover {
+    /* border: 1px solid #eaae07; */
+    /* background-color: rgb(13, 136, 180); */
+    border: 1px solid rgb(238, 62, 56);
+    background-color: rgb(180, 201, 209);
+    color: rgb(238, 62, 56);
+  
+    font-weight: bold;
+  }
+  
+  /* My Account buttons */
+  
+  /*************************************Common (Create Request & Update Request)********************************************************************/
+  .request {
+    text-align: center;
+  }
+  .smaller-input {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+  
+  /*************************************Create Request********************************************************************/
+  .submitButton {
+    margin: 35px;
+    background-color: rgb(35, 136, 173);
+    color: white;
+  }
+  
+  /*************************************Update Requests********************************************************************/
+  .updateButton {
+    margin: 10px;
+  }
+  
+  /*************************************near By Requests********************************************************************/
+  .pageTitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* color: #eaae07; */
+    color: rgb(238, 62, 56);
+  }
+  
+  .componentTitle {
+    margin-bottom: 20px;
+  }
+  
+  .listItemHeader {
+    background-color: #e1e1e1;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 20px;
+    font-size: large;
+  }
+  .listItem {
+    background: #f1f1f1 !important;
+    margin: 5px;
+  }
+  .listItemContent {
+    padding: 8px;
+  }
+  /* .listItemHeader:hover {
+       background-color: rgb(13, 136, 180);
+       color: #f1f1f1;
+  } */
+  
+  .listItem:hover {
+    background-color: rgb(13, 136, 180);
+    border: rgb(13, 136, 180) 1px solid;
+  }
+  
+  /*************************************near By Requests Component********************************************************************/
+  .businessType {
+    background-color: rgb(46, 142, 176);
+    color: #ffffff;
+  }
+  
+  .businessTypeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* color: #eaae07; */
+    color: dodgerblue;
+  }
+  
+  .businessTypeItemName {
+    font-weight: bold;
+    /* color: rgb(255, 101, 30); */
+  }
+  
+  /* .form-inline {
+      width: 100%;
+    }
+    
+    .form-group {
+      width: 90%;
+    }
+    
+    .input-group {
+      width: 90% !important;
+    }
+    
+    .form-control {
+      width: 50% !important;
+    }
+  
+    span.input-group-addon {
+      width: 50px !important;
+    } */
+  
