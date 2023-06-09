@@ -19,38 +19,17 @@ export const Login = () => {
   return (
     <>
       <NavBar />
-      {/* <h3>Log In</h3> */}
+     
       <Container  className="googleButton">
          <Form
           className="logIn"
           onSubmit={handleSubmit}
           action="http://localhost:5000/auth/google"
         >
-          {/* <Form.Group className="col-md-3 mx-auto" controlId="formBasicEmail">
-            <Form.Label>Email:</Form.Label>
-            <Form.Control
-              type="email"
-              placeholder="Enter email"
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-            />
-          </Form.Group> */}
+          
+          
 
-          {/* <Form.Group className="col-md-3 mx-auto" controlId="formBasicEmail">
-            <Form.Label>Password:</Form.Label>
-            <Form.Control
-              type="password"
-              placeholder="Enter password"
-              onChange={(e) => setPassword(e.target.value)}
-              value={password}
-            />
-          </Form.Group> */}
-
-          {/* <Form.Group className="col-md-3 mx-auto" controlId="formBasicEmail">
-            <Button type="submit" variant="secondary" className="submitButton col-md-12 mx-auto">
-              Submit
-            </Button>
-          </Form.Group>  */}
+         
           <div>
           <Button type="submit" variant="flat" className="buttonLA" size="xl"
           >

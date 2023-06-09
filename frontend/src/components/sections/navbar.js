@@ -24,40 +24,17 @@ export const NavBar = () => {
     }
   }
 
-  
-
   return (
     <div id="header" fixed="top">
       <Navbar.Brand className="logoLink" href="/">
-      <Image
-                
-                fluid
-                src="localAppLogoNew.png"
-                alt="localApp"
-                width ="5%"
-            />
-        {/* <img className="logo " src="/localAppLogoNew.png" alt="localApp"></img> */}
+        <Image fluid src="localAppLogoNew.png" alt="localApp" width="5%" />
       </Navbar.Brand>
-      {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
-
       <Nav>
-        <Nav.Link href="/signUp" className="menuItem">
-          Signup
-        </Nav.Link>
-        {/* <UserGreeting /> */}
-        {/* <span>Welcome {loginUserDetails.firstname}</span> */}
         <Nav.Link href="/logIn" className="menuItem">
           Login
         </Nav.Link>
-
-        <Nav.Link href="/user/myAccount" className="menuItem">
-          MyAccount
-        </Nav.Link>
-        <Nav.Link href="/logout" className="menuItem">
+      <Nav.Link href="/logout" className="menuItem">
           Logout
-        </Nav.Link>
-        <Nav.Link href="/contactus" className="menuItem">
-          Contactus
         </Nav.Link>
       </Nav>
     </div>
